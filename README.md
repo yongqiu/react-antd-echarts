@@ -2,7 +2,7 @@
 基于react，echarts的图表展示用例
 
 ```
-git clone https://github.com/duxianwei520/react.git  
+git clone https://github.com/yongqiu/react-antd-echarts.git  
 
 cd react （进入当前的项目）
 
