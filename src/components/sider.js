@@ -56,12 +56,9 @@ class Sider extends React.Component {
                         <Menu.Item key="0"><Link to="/myIntroduce"><Icon type="mail" />Dashboard</Link></Menu.Item>
                         <SubMenu key="sub1" title={<span><Icon type="bars" /><span>CountCharts</span></span>}>
                             <Menu.Item key="1"><Link to="/echarts/UserCountByDay">UserCount</Link></Menu.Item>
-                            <Menu.Item key="2"><Link to="/echarts/AppStartCountByDay">AppStart</Link></Menu.Item>
-                            <Menu.Item key="3"><Link to="/echarts/ErrorCountByDay">ErrorCount</Link></Menu.Item>
                         </SubMenu>
                         <SubMenu key="sub2" title={<span><Icon type="bars" /><span>ListPage</span></span>}>
                             <Menu.Item key="4"><Link to="/table/QueryErrorPage">新增设备</Link></Menu.Item>
-                            <Menu.Item key="5"><Link to="/table/QueryErrorPage">错误列表</Link></Menu.Item>
                         </SubMenu>
                     </Menu>
                 </div>

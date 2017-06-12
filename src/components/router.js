@@ -16,8 +16,8 @@ ReactDom.render((
     <Router history={hashHistory} >
         <Route path="/" component={Sider}>
             <IndexRoute component={myIntroduce} />
-            <Route path="myIntroduce" component={myIntroduce} />
-            <Route path="echarts/UserCountByDay" component={UserCountByDay} />
+            <Route path="/myIntroduce" component={myIntroduce} />
+            <Route path="/echarts/UserCountByDay" component={UserCountByDay} />
             <Route path="/table/QueryErrorPage" component={QueryErrorPage} />
         </Route>
     </Router>
