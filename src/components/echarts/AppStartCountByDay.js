@@ -50,7 +50,6 @@ class AppStartCountByDay extends Component {
             }
         };
         Service.getAppStartCountByDay(requestData).then(function(result){
-          console.log(result)
             this.setState({
               androidData:result
             })

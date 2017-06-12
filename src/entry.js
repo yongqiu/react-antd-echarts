@@ -12,4 +12,4 @@ import './styles/app.scss';
 import './styles/leftMenu.scss';
 
 //引入组件
-import './components/app.js';
+import './components/router.js';
